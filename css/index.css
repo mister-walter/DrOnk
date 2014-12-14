@@ -40,21 +40,20 @@ h1.logo {
     text-align:center;
 }
 
-div.selected {
-    background: #666666;
+div.selected a.btn.menu-item.btn-default {
+    background: #808080;
+    color:#fff;
+    text-shadow: 0 1px 0 #000;
+}
+
+div.selected a.btn.menu-item.btn-default span {
+
 }
 
 span.menu-text {
     line-height: 36px;
 }
 
-/* http://stackoverflow.com/a/22433845 */
 div.video {
-    width: 560px; /* you have to have a size or this method doesn't work */
-    height: 315px; /* think about making these max-width instead - might give you some more responsiveness */
-
-    position: absolute; /* positions out of the flow, but according to the nearest parent */
-    top: 0; right: 0; /* confuse it i guess */
-    bottom: 0; left: 0;
-    margin: auto; /* make em equal */
+    padding-top: 30px;
 }
